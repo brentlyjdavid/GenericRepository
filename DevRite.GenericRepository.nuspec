@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DevRite.GenericRepository</id>
+    <title>Generic Repository</title>
+    <authors>Brent David</authors>
+    <version>{{REPLACEDURINGBUILD}}</version>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Generic Repository</description>
+    <dependencies>
+      <group targetFramework="net45">
+        <dependency id="EntityFramework" version="6.4.0" />
+        <dependency id="DevRite.Extensions" version="1.0.0" />
+        <dependency id="DevRite.GenericRepository.Core" version="{{REPLACEDURINGBUILD}}" />
+      </group>
+      <group targetFramework="netstandard2.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="2.1.14" />
+        <dependency id="DevRite.Extensions" version="1.0.0" />
+        <dependency id="DevRite.GenericRepository.Core" version="{{REPLACEDURINGBUILD}}" />
+      </group>
+
+      <group targetFramework="netstandard2.1">
+        <dependency id="Microsoft.EntityFrameworkCore" version="3.1.1" />
+        <dependency id="DevRite.Extensions" version="1.0.0" />
+        <dependency id="DevRite.GenericRepository.Core" version="{{REPLACEDURINGBUILD}}" />
+      </group>
+
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="DevRite.GenericRepository\bin\Release\net45\DevRite.GenericRepository.dll" target="lib\net45" />
+    <file src="DevRite.GenericRepository\bin\Release\net45\DevRite.GenericRepository.XML" target="lib\net45"/>
+
+    <file src="DevRite.GenericRepository\bin\Release\netstandard2.0\DevRite.GenericRepository.dll" target="lib\netstandard2.0" />
+    <file src="DevRite.GenericRepository\bin\Release\netstandard2.0\DevRite.GenericRepository.XML" target="lib\netstandard2.0"/>
+
+    <file src="DevRite.GenericRepository\bin\Release\netstandard2.1\DevRite.GenericRepository.dll" target="lib\netstandard2.1" />
+    <file src="DevRite.GenericRepository\bin\Release\netstandard2.1\DevRite.GenericRepository.XML" target="lib\netstandard2.1"/>
+  </files>
+</package>

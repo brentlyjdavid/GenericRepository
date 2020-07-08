@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevRite.GenericRepository", "DevRite.GenericRepository\DevRite.GenericRepository.csproj", "{E218148C-1560-4A73-88F1-8A9A3EEEB84D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3BC69045-222B-4D2D-88A5-26626D2B0E73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2489CD86-97AC-4C7D-8212-25D307882AB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuspec", "Nuspec", "{6508189F-005D-4500-BB20-2F77DC1B5520}"
+	ProjectSection(SolutionItems) = preProject
+		DevRite.GenericRepository.Core.nuspec = DevRite.GenericRepository.Core.nuspec
+		DevRite.GenericRepository.nuspec = DevRite.GenericRepository.nuspec
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevRite.GenericRepository.Core", "DevRite.GenericRepository.Core\DevRite.GenericRepository.Core.csproj", "{850E3FD3-AAB7-4105-AF0D-64B154AF74B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevRite.GenericRepository.Tests", "DevRite.GenericRepository.Tests\DevRite.GenericRepository.Tests.csproj", "{137EDC42-03CD-49BF-A4D0-1AB16EA20F56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testProjects", "testProjects", "{70AE56E2-86AA-471C-873B-3137A4F1C445}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevRite.GenericRepoTestCore", "DevRite.GenericRepoTestCore\DevRite.GenericRepoTestCore.csproj", "{214B35C3-0648-4DFE-8331-25B69A665D28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E218148C-1560-4A73-88F1-8A9A3EEEB84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E218148C-1560-4A73-88F1-8A9A3EEEB84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E218148C-1560-4A73-88F1-8A9A3EEEB84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E218148C-1560-4A73-88F1-8A9A3EEEB84D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850E3FD3-AAB7-4105-AF0D-64B154AF74B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850E3FD3-AAB7-4105-AF0D-64B154AF74B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850E3FD3-AAB7-4105-AF0D-64B154AF74B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850E3FD3-AAB7-4105-AF0D-64B154AF74B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{137EDC42-03CD-49BF-A4D0-1AB16EA20F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137EDC42-03CD-49BF-A4D0-1AB16EA20F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137EDC42-03CD-49BF-A4D0-1AB16EA20F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137EDC42-03CD-49BF-A4D0-1AB16EA20F56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{214B35C3-0648-4DFE-8331-25B69A665D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214B35C3-0648-4DFE-8331-25B69A665D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214B35C3-0648-4DFE-8331-25B69A665D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214B35C3-0648-4DFE-8331-25B69A665D28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E218148C-1560-4A73-88F1-8A9A3EEEB84D} = {3BC69045-222B-4D2D-88A5-26626D2B0E73}
+		{850E3FD3-AAB7-4105-AF0D-64B154AF74B6} = {3BC69045-222B-4D2D-88A5-26626D2B0E73}
+		{137EDC42-03CD-49BF-A4D0-1AB16EA20F56} = {2489CD86-97AC-4C7D-8212-25D307882AB9}
+		{214B35C3-0648-4DFE-8331-25B69A665D28} = {70AE56E2-86AA-471C-873B-3137A4F1C445}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAE1E708-A405-4EF5-9E8C-1AF12DE2FCE1}
+	EndGlobalSection
+EndGlobal

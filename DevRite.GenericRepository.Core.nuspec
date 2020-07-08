@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DevRite.GenericRepository.Core</id>
+    <title>Generic Repository Core</title>
+    <authors>Brent David</authors>
+    <version>{{REPLACEDURINGBUILD}}</version>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Generic Repository Core</description>
+    <dependencies>
+      <group targetFramework="net45">
+      </group>
+
+      <group targetFramework="netstandard2.0">
+      </group>
+
+      <group targetFramework="netstandard2.1">
+      </group>
+
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="DevRite.GenericRepository.Core\bin\Release\net45\DevRite.GenericRepository.Core.dll" target="lib\net45" />
+    <file src="DevRite.GenericRepository.Core\bin\Release\net45\DevRite.GenericRepository.Core.XML" target="lib\net45"/>
+
+    <file src="DevRite.GenericRepository.Core\bin\Release\netstandard2.0\DevRite.GenericRepository.Core.dll" target="lib\netstandard2.0" />
+    <file src="DevRite.GenericRepository.Core\bin\Release\netstandard2.0\DevRite.GenericRepository.Core.XML" target="lib\netstandard2.0"/>
+
+    <file src="DevRite.GenericRepository.Core\bin\Release\netstandard2.1\DevRite.GenericRepository.Core.dll" target="lib\netstandard2.1" />
+    <file src="DevRite.GenericRepository.Core\bin\Release\netstandard2.1\DevRite.GenericRepository.Core.XML" target="lib\netstandard2.1"/>
+  </files>
+</package>
