@@ -25,6 +25,10 @@ The vast majority of the interfaces for the tables/entities start with `ISaveabl
 
 These two in specific combinations apply different behaviors to your queries.  For example, an entity with only `ISaveableActive` will *only* return entities that have IsActive = 1.  An entity with `ISaveableActive` and `ISaveableDelete` will return all entities with IsActive true or false, but not return any that have a value in the DateDeletedUtc Field.
 
+#### ISaveableDelete
+
+This interface, in addition to the above query behaviors, modifies the saving logic on an entity.  If this interface exists, the repository will perform a 'Soft Delete', meaning it will set a field called DateDeletedUtc to the current date.  If this interface does not exist, it will attempt to fully remove it from the database (and fail if there are foreign key constraint issues)
+
 #### ISaveableCreate
 
 As it sounds, the repository will add a DateCreatedUtc value, provided you didn't already give the entity one prior to saving
